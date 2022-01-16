@@ -2,5 +2,5 @@
 Pie Chart \
 Donut Chart \
 Bar Chart \
-Line Chart \
+Line Chart 
 
