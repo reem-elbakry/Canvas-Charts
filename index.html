@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas charts</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="inputsContainer">
+      <label for="chemistry">Chemistry</label>
+      <input type="number" name="chemistry" id="chemistryDegree" />
+      <input type="color" name="" id="chemistryColor" />
+      <label for="science">Science</label>
+      <input type="number" name="science" id="scienceDegree" />
+      <input type="color" name="" id="scienceColor" /><br />
+      <label for="math">Math</label>
+      <input type="number" name="math" id="mathDegree" />
+      <input type="color" name="" id="mathColor" />
+      <label for="arabic">Arabic</label>
+      <input type="number" name="arabic" id="arabicDegree" />
+      <input type="color" name="" id="arabicColor" />
+      <input type="button" id="draw" value="Draw" />
+      <label for="pie-chart">Pie chart</label>
+      <input type="checkbox" name="pie-chart" id="pie-chart" />
+      <label for="donut-chart">Donut chart</label>
+      <input type="checkbox" name="donut-chart" id="donut-chart" /> <br />
+      <label for="bar-chart">Bar chart</label>
+      <input type="checkbox" name="bar-chart" id="bar-chart" />
+      <label for="line-chart">Line chart</label>
+      <input type="checkbox" name="line-chart" id="line-chart" />
+    </div><div class="my-canvas">
+      <canvas
+        id="pieChart"
+        width="200"
+        height="200"
+        style="border: 1px solid #000000"
+      >
+      </canvas>
+      <canvas
+        id="donutChart"
+        width="200"
+        height="200"
+        style="border: 1px solid #000000"
+      >
+      </canvas>
+      <canvas
+        id="barChart"
+        width="200"
+        height="200"
+        style="border: 1px solid #000000"
+      >
+      </canvas>
+      <canvas
+        id="lineChart"
+        width="200"
+        height="200"
+        style="border: 1px solid #000000"
+      >
+      </canvas>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
